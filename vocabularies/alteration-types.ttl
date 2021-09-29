@@ -10,7 +10,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/gswa> ;
     dcterms:created "2021-09-26"^^xsd:date ;
     dcterms:modified "2021-09-29"^^xsd:date ;
-    skos:definition "This scheme describes the concept space for Alteration Type concepts, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. By extension, it includes all concepts in this conceptScheme, as well as concepts in any previous versions of the scheme. Designed for populating the alteration type property in GeoSciML alterationDescription elements. Definitions of alteration types have not been included."@en ;
+    skos:definition "This vocabulary give Alteration Type concepts, listed in the Geologicla Survey of Western Australia's WAROX database."@en ;
     skos:prefLabel "WAROX Alteration Type"@en ;
     dcterms:provenance "This vocabulary was built on an extract of the WAROX system's lookup table"@en ;
     skos:hasTopConcept     
