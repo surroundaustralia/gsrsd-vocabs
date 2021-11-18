@@ -1,4 +1,5 @@
 {
     "alteration-types.ttl": "https://linked.data.gov.au/def/warox-alteration-types",
-    "telephone-type.ttl": "https://linked.data.gov.au/def/telephone-type"
+    "telephone-type.ttl": "https://linked.data.gov.au/def/telephone-type",
+    "telephone-type2.ttl": "https://linked.data.gov.au/def/telephone-type"
 }
