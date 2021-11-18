@@ -8,7 +8,7 @@ SHOW_WARNINGS = True
 def main():
     # get the validator
     r = httpx.get("https://w3id.org/profile/vocpub/validator")
-    assert r.status_code == 200
+    assert 200 <= r.status_code < 400
 
     # for all vocabs...
     warning_vocabs = {} # format {vocab_filename: warning_msg}
