@@ -1,4 +1,4 @@
 {
-    "petroleum-tenement-status.ttl": "http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum-tenement-status",
-    "alteration-types.ttl": "https://linked.data.gov.au/def/warox-alteration-types"
+    "alteration-types.ttl": "https://linked.data.gov.au/def/warox-alteration-types",
+    "telephone-type.ttl": "https://linked.data.gov.au/def/telephone-type"
 }
