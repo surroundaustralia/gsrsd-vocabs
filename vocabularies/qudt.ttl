@@ -1,0 +1,495 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://linked.data.gov.au/def/geou> a skos:ConceptScheme ;
+    skos:definition "<p>This profile of the Quantities, Units, Dimensions &amp; Types ontology and vocabularies lists those elements deemed by the profile creators to be of relevance to the geosciences.</p>" ;
+    skos:inScheme <http://linked.data.gov.au/def/geou/BBLOE>,
+        <http://linked.data.gov.au/def/geou/BBL_US-PER-HR>,
+        <http://linked.data.gov.au/def/geou/BBL_US-PER-MIN>,
+        <http://linked.data.gov.au/def/geou/BOE>,
+        <http://linked.data.gov.au/def/geou/BTU-PER-MegaL>,
+        <http://linked.data.gov.au/def/geou/BWOC>,
+        <http://linked.data.gov.au/def/geou/BWOW>,
+        <http://linked.data.gov.au/def/geou/COUNT>,
+        <http://linked.data.gov.au/def/geou/CentiM3-PER-TON_M>,
+        <http://linked.data.gov.au/def/geou/D>,
+        <http://linked.data.gov.au/def/geou/DEG-PER-100F>,
+        <http://linked.data.gov.au/def/geou/DEG-PER-30M>,
+        <http://linked.data.gov.au/def/geou/DEG-PER-F>,
+        <http://linked.data.gov.au/def/geou/DEG-PER-M>,
+        <http://linked.data.gov.au/def/geou/DecaREV-PER-MIN>,
+        <http://linked.data.gov.au/def/geou/ExaBYTE>,
+        <http://linked.data.gov.au/def/geou/FRAC>,
+        <http://linked.data.gov.au/def/geou/FT-PER-MilliSEC>,
+        <http://linked.data.gov.au/def/geou/FT3-PER-TON>,
+        <http://linked.data.gov.au/def/geou/FT3-PER-TON_M>,
+        <http://linked.data.gov.au/def/geou/GAL_IMP-PER-50SACK>,
+        <http://linked.data.gov.au/def/geou/GM-PER-KiloGM>,
+        <http://linked.data.gov.au/def/geou/GM-PER-TON_M>,
+        <http://linked.data.gov.au/def/geou/GigaJ>,
+        <http://linked.data.gov.au/def/geou/GigaJ-PER-MegaL>,
+        <http://linked.data.gov.au/def/geou/HR-PER-FT>,
+        <http://linked.data.gov.au/def/geou/KiloBBL>,
+        <http://linked.data.gov.au/def/geou/KiloBBLOE>,
+        <http://linked.data.gov.au/def/geou/KiloBTU>,
+        <http://linked.data.gov.au/def/geou/KiloBTU-PER-MegaL>,
+        <http://linked.data.gov.au/def/geou/KiloL-PER-DAY>,
+        <http://linked.data.gov.au/def/geou/KiloLB_F>,
+        <http://linked.data.gov.au/def/geou/KiloLB_M>,
+        <http://linked.data.gov.au/def/geou/KiloREV-PER-MIN>,
+        <http://linked.data.gov.au/def/geou/L-PER-50SACK>,
+        <http://linked.data.gov.au/def/geou/LB_F-PER-100FT2>,
+        <http://linked.data.gov.au/def/geou/LB_F-PER-IN>,
+        <http://linked.data.gov.au/def/geou/LB_M-PER-100FT2>,
+        <http://linked.data.gov.au/def/geou/LB_M-PER-50SACK>,
+        <http://linked.data.gov.au/def/geou/LB_M-PER-BBL>,
+        <http://linked.data.gov.au/def/geou/M2-PER-N>,
+        <http://linked.data.gov.au/def/geou/M3-PER-TON_M>,
+        <http://linked.data.gov.au/def/geou/MYR>,
+        <http://linked.data.gov.au/def/geou/MegaBBL>,
+        <http://linked.data.gov.au/def/geou/MegaBBLOE>,
+        <http://linked.data.gov.au/def/geou/MegaBOE>,
+        <http://linked.data.gov.au/def/geou/MegaBTU>,
+        <http://linked.data.gov.au/def/geou/MegaBTU-PER-MegaL>,
+        <http://linked.data.gov.au/def/geou/MegaF3-PER-DAY>,
+        <http://linked.data.gov.au/def/geou/MegaFT3>,
+        <http://linked.data.gov.au/def/geou/MegaL-PER-DAY>,
+        <http://linked.data.gov.au/def/geou/MegaM3>,
+        <http://linked.data.gov.au/def/geou/MegaTON_M>,
+        <http://linked.data.gov.au/def/geou/MicroS-PER-CentiM>,
+        <http://linked.data.gov.au/def/geou/MicroS-PER-M>,
+        <http://linked.data.gov.au/def/geou/MilliD>,
+        <http://linked.data.gov.au/def/geou/MilliGM-PER-TOC>,
+        <http://linked.data.gov.au/def/geou/MilliGM-PER-TON_M>,
+        <http://linked.data.gov.au/def/geou/MilliM-PER-SEC>,
+        <http://linked.data.gov.au/def/geou/N-PER-M>,
+        <http://linked.data.gov.au/def/geou/OZ-PER-TON_LONG>,
+        <http://linked.data.gov.au/def/geou/OZ-PER-TON_M>,
+        <http://linked.data.gov.au/def/geou/PER-PA>,
+        <http://linked.data.gov.au/def/geou/PERCENT-PER-VOL>,
+        <http://linked.data.gov.au/def/geou/PERCENT-PER-WEIGHT>,
+        <http://linked.data.gov.au/def/geou/PetaJ>,
+        <http://linked.data.gov.au/def/geou/PetaJ-PER-MegaL>,
+        <http://linked.data.gov.au/def/geou/RATIO>,
+        <http://linked.data.gov.au/def/geou/SHOTS-PER-FT>,
+        <http://linked.data.gov.au/def/geou/SHOTS-PER-M>,
+        <http://linked.data.gov.au/def/geou/TOC>,
+        <http://linked.data.gov.au/def/geou/TON_M-PER-M>,
+        <http://linked.data.gov.au/def/geou/kiloTON_M>,
+        <http://qudt.org/vocab/unit/ARCMIN>,
+        <http://qudt.org/vocab/unit/ARCSEC>,
+        <http://qudt.org/vocab/unit/ATM>,
+        <http://qudt.org/vocab/unit/BAR>,
+        <http://qudt.org/vocab/unit/BBL>,
+        <http://qudt.org/vocab/unit/BBL_US-PER-DAY>,
+        <http://qudt.org/vocab/unit/BTU_IT>,
+        <http://qudt.org/vocab/unit/BYTE>,
+        <http://qudt.org/vocab/unit/CentiM>,
+        <http://qudt.org/vocab/unit/CentiM3>,
+        <http://qudt.org/vocab/unit/CentiP>,
+        <http://qudt.org/vocab/unit/DAY>,
+        <http://qudt.org/vocab/unit/DEG>,
+        <http://qudt.org/vocab/unit/DEG_C>,
+        <http://qudt.org/vocab/unit/DEG_F>,
+        <http://qudt.org/vocab/unit/FT>,
+        <http://qudt.org/vocab/unit/FT-PER-HR>,
+        <http://qudt.org/vocab/unit/FT-PER-SEC>,
+        <http://qudt.org/vocab/unit/FT3>,
+        <http://qudt.org/vocab/unit/FT3-PER-DAY>,
+        <http://qudt.org/vocab/unit/FT3-PER-HR>,
+        <http://qudt.org/vocab/unit/GAL_IMP>,
+        <http://qudt.org/vocab/unit/GAL_US>,
+        <http://qudt.org/vocab/unit/GM>,
+        <http://qudt.org/vocab/unit/GM-PER-CentiM3>,
+        <http://qudt.org/vocab/unit/GRAD>,
+        <http://qudt.org/vocab/unit/G_REL>,
+        <http://qudt.org/vocab/unit/GigaBYTE>,
+        <http://qudt.org/vocab/unit/HR>,
+        <http://qudt.org/vocab/unit/HZ>,
+        <http://qudt.org/vocab/unit/IN>,
+        <http://qudt.org/vocab/unit/J>,
+        <http://qudt.org/vocab/unit/K>,
+        <http://qudt.org/vocab/unit/KiloBYTE>,
+        <http://qudt.org/vocab/unit/KiloFT3>,
+        <http://qudt.org/vocab/unit/KiloGM>,
+        <http://qudt.org/vocab/unit/KiloGM-PER-L>,
+        <http://qudt.org/vocab/unit/KiloGM-PER-M>,
+        <http://qudt.org/vocab/unit/KiloGM-PER-M3>,
+        <http://qudt.org/vocab/unit/KiloL>,
+        <http://qudt.org/vocab/unit/KiloLB_M-PER-IN2>,
+        <http://qudt.org/vocab/unit/KiloN>,
+        <http://qudt.org/vocab/unit/KiloPA>,
+        <http://qudt.org/vocab/unit/L>,
+        <http://qudt.org/vocab/unit/L-PER-DAY>,
+        <http://qudt.org/vocab/unit/L-PER-HR>,
+        <http://qudt.org/vocab/unit/L-PER-MIN>,
+        <http://qudt.org/vocab/unit/LB_F>,
+        <http://qudt.org/vocab/unit/LB_M>,
+        <http://qudt.org/vocab/unit/LB_M-PER-FT>,
+        <http://qudt.org/vocab/unit/LB_M-PER-FT3>,
+        <http://qudt.org/vocab/unit/LB_M-PER-GAL>,
+        <http://qudt.org/vocab/unit/LB_M-PER-IN2>,
+        <http://qudt.org/vocab/unit/M>,
+        <http://qudt.org/vocab/unit/M-PER-HR>,
+        <http://qudt.org/vocab/unit/M-PER-SEC>,
+        <http://qudt.org/vocab/unit/M3>,
+        <http://qudt.org/vocab/unit/M3-PER-DAY>,
+        <http://qudt.org/vocab/unit/M3-PER-HR>,
+        <http://qudt.org/vocab/unit/MIN>,
+        <http://qudt.org/vocab/unit/MO>,
+        <http://qudt.org/vocab/unit/MegaBYTE>,
+        <http://qudt.org/vocab/unit/MegaL>,
+        <http://qudt.org/vocab/unit/MegaLB_F>,
+        <http://qudt.org/vocab/unit/MegaPA>,
+        <http://qudt.org/vocab/unit/MilliGM>,
+        <http://qudt.org/vocab/unit/MilliM>,
+        <http://qudt.org/vocab/unit/MilliRAD>,
+        <http://qudt.org/vocab/unit/MilliS>,
+        <http://qudt.org/vocab/unit/N>,
+        <http://qudt.org/vocab/unit/NanoSEC>,
+        <http://qudt.org/vocab/unit/OHM-M>,
+        <http://qudt.org/vocab/unit/OZ>,
+        <http://qudt.org/vocab/unit/PA>,
+        <http://qudt.org/vocab/unit/PA-PER-SEC>,
+        <http://qudt.org/vocab/unit/PERCENT>,
+        <http://qudt.org/vocab/unit/PPB>,
+        <http://qudt.org/vocab/unit/PPM>,
+        <http://qudt.org/vocab/unit/PetaBYTE>,
+        <http://qudt.org/vocab/unit/RAD>,
+        <http://qudt.org/vocab/unit/REV-PER-HR>,
+        <http://qudt.org/vocab/unit/REV-PER-MIN>,
+        <http://qudt.org/vocab/unit/SEC>,
+        <http://qudt.org/vocab/unit/TOE>,
+        <http://qudt.org/vocab/unit/TON_LONG>,
+        <http://qudt.org/vocab/unit/TON_M>,
+        <http://qudt.org/vocab/unit/TeraBYTE>,
+        <http://qudt.org/vocab/unit/UNITLESS>,
+        <http://qudt.org/vocab/unit/WK>,
+        <http://qudt.org/vocab/unit/YR> ;
+    skos:prefLabel "Geoscience Profile of QUDT Units" .
+
+<http://linked.data.gov.au/def/geou/BBLOE> skos:prefLabel "Barrel of Oil Equivalent per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/BBL_US-PER-HR> skos:prefLabel "US Barrels per Hour" .
+
+<http://linked.data.gov.au/def/geou/BBL_US-PER-MIN> skos:prefLabel "US Barrels per Minute" .
+
+<http://linked.data.gov.au/def/geou/BOE> skos:prefLabel "Barrel of Oil Equivalent" .
+
+<http://linked.data.gov.au/def/geou/BTU-PER-MegaL> skos:prefLabel "British Thermal Unit per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/BWOC> skos:prefLabel "By Weight of Cement" .
+
+<http://linked.data.gov.au/def/geou/BWOW> skos:prefLabel "By Weight of Water" .
+
+<http://linked.data.gov.au/def/geou/COUNT> skos:prefLabel "Count" .
+
+<http://linked.data.gov.au/def/geou/CentiM3-PER-TON_M> skos:prefLabel "Cubic Centimetres per Tonne" .
+
+<http://linked.data.gov.au/def/geou/D> skos:prefLabel "Darcy" .
+
+<http://linked.data.gov.au/def/geou/DEG-PER-100F> skos:prefLabel "Degrees per Hundred Feet" .
+
+<http://linked.data.gov.au/def/geou/DEG-PER-30M> skos:prefLabel "Degrees per Thirty Metres" .
+
+<http://linked.data.gov.au/def/geou/DEG-PER-F> skos:prefLabel "Degrees per Foot" .
+
+<http://linked.data.gov.au/def/geou/DEG-PER-M> skos:prefLabel "Degrees per Metre" .
+
+<http://linked.data.gov.au/def/geou/DecaREV-PER-MIN> skos:prefLabel "Hundred Revolutions per Minute" .
+
+<http://linked.data.gov.au/def/geou/ExaBYTE> skos:prefLabel "Exabyte" .
+
+<http://linked.data.gov.au/def/geou/FRAC> skos:prefLabel "Decimal Fraction" .
+
+<http://linked.data.gov.au/def/geou/FT-PER-MilliSEC> skos:prefLabel "Feet per Millisecond" .
+
+<http://linked.data.gov.au/def/geou/FT3-PER-TON> skos:prefLabel "Standard Cubic Feet per Ton" .
+
+<http://linked.data.gov.au/def/geou/FT3-PER-TON_M> skos:prefLabel "Cubic Feet Per Ton" .
+
+<http://linked.data.gov.au/def/geou/GAL_IMP-PER-50SACK> skos:prefLabel "Gallons per 50kg Sack" .
+
+<http://linked.data.gov.au/def/geou/GM-PER-KiloGM> skos:prefLabel "Grams per Kilogram" .
+
+<http://linked.data.gov.au/def/geou/GM-PER-TON_M> skos:prefLabel "Grams per Tonne" .
+
+<http://linked.data.gov.au/def/geou/GigaJ> skos:prefLabel "Gigajoule" .
+
+<http://linked.data.gov.au/def/geou/GigaJ-PER-MegaL> skos:prefLabel "Gigajoules per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/HR-PER-FT> skos:prefLabel "Hours per Foot" .
+
+<http://linked.data.gov.au/def/geou/KiloBBL> skos:prefLabel "Thousand Barrels" .
+
+<http://linked.data.gov.au/def/geou/KiloBBLOE> skos:prefLabel "Thousand Barrels of Oil Equivalent per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/KiloBTU> skos:prefLabel "Thousand British Thermal Unit" .
+
+<http://linked.data.gov.au/def/geou/KiloBTU-PER-MegaL> skos:prefLabel "Thousand British Thermal Units per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/KiloL-PER-DAY> skos:prefLabel "Kilolitre per Day" .
+
+<http://linked.data.gov.au/def/geou/KiloLB_F> skos:prefLabel "Thousand Pounds Force" .
+
+<http://linked.data.gov.au/def/geou/KiloLB_M> skos:prefLabel "Thousand Pounds" .
+
+<http://linked.data.gov.au/def/geou/KiloREV-PER-MIN> skos:prefLabel "Thousand Revolutions per Minute" .
+
+<http://linked.data.gov.au/def/geou/L-PER-50SACK> skos:prefLabel "Litres per 50kg Sack" .
+
+<http://linked.data.gov.au/def/geou/LB_F-PER-100FT2> skos:prefLabel "Pounds Force per 100 Square Feet" .
+
+<http://linked.data.gov.au/def/geou/LB_F-PER-IN> skos:prefLabel "Pounds per Inch" .
+
+<http://linked.data.gov.au/def/geou/LB_M-PER-100FT2> skos:prefLabel "Pounds per 100 Square Feet" .
+
+<http://linked.data.gov.au/def/geou/LB_M-PER-50SACK> skos:prefLabel "Pounds per 50kg Sack" .
+
+<http://linked.data.gov.au/def/geou/LB_M-PER-BBL> skos:prefLabel "Pounds Per Barrel" .
+
+<http://linked.data.gov.au/def/geou/M2-PER-N> skos:prefLabel "Metre Squared per Newton" .
+
+<http://linked.data.gov.au/def/geou/M3-PER-TON_M> skos:prefLabel "Cubic Metres per Tonne" .
+
+<http://linked.data.gov.au/def/geou/MYR> skos:prefLabel "Millions of Years" .
+
+<http://linked.data.gov.au/def/geou/MegaBBL> skos:prefLabel "Million Barrels" .
+
+<http://linked.data.gov.au/def/geou/MegaBBLOE> skos:prefLabel "Million Barrel of Oil Equivalent per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/MegaBOE> skos:prefLabel "Million Barrel of Oil Equivalent" .
+
+<http://linked.data.gov.au/def/geou/MegaBTU> skos:prefLabel "Million British Thermal Units" .
+
+<http://linked.data.gov.au/def/geou/MegaBTU-PER-MegaL> skos:prefLabel "Million British Thermal Units per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/MegaF3-PER-DAY> skos:prefLabel "Million Cubic Feet per Day" .
+
+<http://linked.data.gov.au/def/geou/MegaFT3> skos:prefLabel "Million Cubic Feet" .
+
+<http://linked.data.gov.au/def/geou/MegaL-PER-DAY> skos:prefLabel "Megalitres per Day" .
+
+<http://linked.data.gov.au/def/geou/MegaM3> skos:prefLabel "Million Cubic Metres" .
+
+<http://linked.data.gov.au/def/geou/MegaTON_M> skos:prefLabel "Megatonnes" .
+
+<http://linked.data.gov.au/def/geou/MicroS-PER-CentiM> skos:prefLabel "Micro-Siemens per Centimetre" .
+
+<http://linked.data.gov.au/def/geou/MicroS-PER-M> skos:prefLabel "Micro-Siemens per Metre" .
+
+<http://linked.data.gov.au/def/geou/MilliD> skos:prefLabel "Millidarcy" .
+
+<http://linked.data.gov.au/def/geou/MilliGM-PER-TOC> skos:prefLabel "Milligrams per gram TOC" .
+
+<http://linked.data.gov.au/def/geou/MilliGM-PER-TON_M> skos:prefLabel "Milligrams per Tonne" .
+
+<http://linked.data.gov.au/def/geou/MilliM-PER-SEC> skos:prefLabel "Metres per Millisecond" .
+
+<http://linked.data.gov.au/def/geou/N-PER-M> skos:prefLabel "Newtons per Metre" .
+
+<http://linked.data.gov.au/def/geou/OZ-PER-TON_LONG> skos:prefLabel "Ounce per Ton" .
+
+<http://linked.data.gov.au/def/geou/OZ-PER-TON_M> skos:prefLabel "Ounce per Tonne" .
+
+<http://linked.data.gov.au/def/geou/PER-PA> skos:prefLabel "Inverse Pascal" .
+
+<http://linked.data.gov.au/def/geou/PERCENT-PER-VOL> skos:prefLabel "Percent by Volume" .
+
+<http://linked.data.gov.au/def/geou/PERCENT-PER-WEIGHT> skos:prefLabel "Percent by Weight" .
+
+<http://linked.data.gov.au/def/geou/PetaJ> skos:prefLabel "Petajoule" .
+
+<http://linked.data.gov.au/def/geou/PetaJ-PER-MegaL> skos:prefLabel "Petajoules per Megalitre" .
+
+<http://linked.data.gov.au/def/geou/RATIO> skos:prefLabel "Ratio" .
+
+<http://linked.data.gov.au/def/geou/SHOTS-PER-FT> skos:prefLabel "Shots per Foot" .
+
+<http://linked.data.gov.au/def/geou/SHOTS-PER-M> skos:prefLabel "Shots per Metre" .
+
+<http://linked.data.gov.au/def/geou/TOC> skos:prefLabel "Total Organic Carbon" .
+
+<http://linked.data.gov.au/def/geou/TON_M-PER-M> skos:prefLabel "Tonnes per Cubic Metre" .
+
+<http://linked.data.gov.au/def/geou/kiloTON_M> skos:prefLabel "Kilotonnes" .
+
+<http://qudt.org/vocab/unit/ARCMIN> skos:prefLabel "ArcMinute" .
+
+<http://qudt.org/vocab/unit/ARCSEC> skos:prefLabel "ArcSecond" .
+
+<http://qudt.org/vocab/unit/ATM> skos:prefLabel "Standard Atmosphere" .
+
+<http://qudt.org/vocab/unit/BAR> skos:prefLabel "Bar" .
+
+<http://qudt.org/vocab/unit/BBL> skos:prefLabel "Barrel" .
+
+<http://qudt.org/vocab/unit/BBL_US-PER-DAY> skos:prefLabel "barrel (US) per day" .
+
+<http://qudt.org/vocab/unit/BTU_IT> skos:prefLabel "British Thermal Unit (International Definition)" .
+
+<http://qudt.org/vocab/unit/BYTE> skos:prefLabel "Byte" .
+
+<http://qudt.org/vocab/unit/CentiM> skos:prefLabel "Centimeter" .
+
+<http://qudt.org/vocab/unit/CentiM3> skos:prefLabel "cubic centimeter" .
+
+<http://qudt.org/vocab/unit/CentiP> skos:prefLabel "Centipoise" .
+
+<http://qudt.org/vocab/unit/DAY> skos:prefLabel "Day" .
+
+<http://qudt.org/vocab/unit/DEG> skos:prefLabel "Degree" .
+
+<http://qudt.org/vocab/unit/DEG_C> skos:prefLabel "Degree Celsius" .
+
+<http://qudt.org/vocab/unit/DEG_F> skos:prefLabel "Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/FT> skos:prefLabel "Foot" .
+
+<http://qudt.org/vocab/unit/FT-PER-HR> skos:prefLabel "Foot per Hour" .
+
+<http://qudt.org/vocab/unit/FT-PER-SEC> skos:prefLabel "Foot per Second" .
+
+<http://qudt.org/vocab/unit/FT3> skos:prefLabel "Cubic Foot" .
+
+<http://qudt.org/vocab/unit/FT3-PER-DAY> skos:prefLabel "cubic foot per day" .
+
+<http://qudt.org/vocab/unit/FT3-PER-HR> skos:prefLabel "cubic foot per hour" .
+
+<http://qudt.org/vocab/unit/GAL_IMP> skos:prefLabel "Imperial Gallon" .
+
+<http://qudt.org/vocab/unit/GAL_US> skos:prefLabel "US Gallon" .
+
+<http://qudt.org/vocab/unit/GM> skos:prefLabel "Gram" .
+
+<http://qudt.org/vocab/unit/GM-PER-CentiM3> skos:prefLabel "gram per centimetre cubed" .
+
+<http://qudt.org/vocab/unit/GRAD> skos:prefLabel "Grad" .
+
+<http://qudt.org/vocab/unit/G_REL> skos:prefLabel "Specific Gravity" .
+
+<http://qudt.org/vocab/unit/GigaBYTE> skos:prefLabel "GigaByte" .
+
+<http://qudt.org/vocab/unit/HR> skos:prefLabel "Hour" .
+
+<http://qudt.org/vocab/unit/HZ> skos:prefLabel "Hertz" .
+
+<http://qudt.org/vocab/unit/IN> skos:prefLabel "Inch" .
+
+<http://qudt.org/vocab/unit/J> skos:prefLabel "Joule" .
+
+<http://qudt.org/vocab/unit/K> skos:prefLabel "Kelvin" .
+
+<http://qudt.org/vocab/unit/KiloBYTE> skos:prefLabel "Kilo Byte" .
+
+<http://qudt.org/vocab/unit/KiloFT3> skos:prefLabel "thousand cubic feet" .
+
+<http://qudt.org/vocab/unit/KiloGM> skos:prefLabel "Kilogram" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-L> skos:prefLabel "kilogram per litre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M> skos:prefLabel "Kilogram per Meter" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M3> skos:prefLabel "Kilogram per Cubic Meter" .
+
+<http://qudt.org/vocab/unit/KiloL> skos:prefLabel "kilolitre" .
+
+<http://qudt.org/vocab/unit/KiloLB_M-PER-IN2> skos:prefLabel "Thousand Pounds per Square Inch" .
+
+<http://qudt.org/vocab/unit/KiloN> skos:prefLabel "kilonewton" .
+
+<http://qudt.org/vocab/unit/KiloPA> skos:prefLabel "Kilopascal" .
+
+<http://qudt.org/vocab/unit/L> skos:prefLabel "Liter" .
+
+<http://qudt.org/vocab/unit/L-PER-DAY> skos:prefLabel "litre per day" .
+
+<http://qudt.org/vocab/unit/L-PER-HR> skos:prefLabel "litre per hour" .
+
+<http://qudt.org/vocab/unit/L-PER-MIN> skos:prefLabel "litre per minute" .
+
+<http://qudt.org/vocab/unit/LB_F> skos:prefLabel "Pound Force" .
+
+<http://qudt.org/vocab/unit/LB_M> skos:prefLabel "Pound Mass" .
+
+<http://qudt.org/vocab/unit/LB_M-PER-FT> skos:prefLabel "Pound per Foot" .
+
+<http://qudt.org/vocab/unit/LB_M-PER-FT3> skos:prefLabel "Pound per Cubic Foot" .
+
+<http://qudt.org/vocab/unit/LB_M-PER-GAL> skos:prefLabel "Pound per Gallon" .
+
+<http://qudt.org/vocab/unit/LB_M-PER-IN2> skos:prefLabel "pound per square inch" .
+
+<http://qudt.org/vocab/unit/M> skos:prefLabel "Meter" .
+
+<http://qudt.org/vocab/unit/M-PER-HR> skos:prefLabel "Meter per Hour" .
+
+<http://qudt.org/vocab/unit/M-PER-SEC> skos:prefLabel "Meter per Second" .
+
+<http://qudt.org/vocab/unit/M3> skos:prefLabel "Cubic Meter" .
+
+<http://qudt.org/vocab/unit/M3-PER-DAY> skos:prefLabel "M3 PER DAY" .
+
+<http://qudt.org/vocab/unit/M3-PER-HR> skos:prefLabel "Cubic Meter per Hour" .
+
+<http://qudt.org/vocab/unit/MIN> skos:prefLabel "Minute" .
+
+<http://qudt.org/vocab/unit/MO> skos:prefLabel "Month" .
+
+<http://qudt.org/vocab/unit/MegaBYTE> skos:prefLabel "Mega byte" .
+
+<http://qudt.org/vocab/unit/MegaL> skos:prefLabel "megalitre" .
+
+<http://qudt.org/vocab/unit/MegaLB_F> skos:prefLabel "Mega Pound Force" .
+
+<http://qudt.org/vocab/unit/MegaPA> skos:prefLabel "megapascal" .
+
+<http://qudt.org/vocab/unit/MilliGM> skos:prefLabel "milligram" .
+
+<http://qudt.org/vocab/unit/MilliM> skos:prefLabel "Millimeter" .
+
+<http://qudt.org/vocab/unit/MilliRAD> skos:prefLabel "milliradian" .
+
+<http://qudt.org/vocab/unit/MilliS> skos:prefLabel "millisiemens" .
+
+<http://qudt.org/vocab/unit/N> skos:prefLabel "Newton" .
+
+<http://qudt.org/vocab/unit/NanoSEC> skos:prefLabel "nanosecond" .
+
+<http://qudt.org/vocab/unit/OHM-M> skos:prefLabel "Ohm Meter" .
+
+<http://qudt.org/vocab/unit/OZ> skos:prefLabel "ounce" .
+
+<http://qudt.org/vocab/unit/PA> skos:prefLabel "Pascal" .
+
+<http://qudt.org/vocab/unit/PA-PER-SEC> skos:prefLabel "Pascal per Second" .
+
+<http://qudt.org/vocab/unit/PERCENT> skos:prefLabel "Percent" .
+
+<http://qudt.org/vocab/unit/PPB> skos:prefLabel "Parts per billion" .
+
+<http://qudt.org/vocab/unit/PPM> skos:prefLabel "Parts per million" .
+
+<http://qudt.org/vocab/unit/PetaBYTE> skos:prefLabel "PetaByte" .
+
+<http://qudt.org/vocab/unit/RAD> skos:prefLabel "Radian" .
+
+<http://qudt.org/vocab/unit/REV-PER-HR> skos:prefLabel "Revolution per Hour" .
+
+<http://qudt.org/vocab/unit/REV-PER-MIN> skos:prefLabel "Revolution per Minute" .
+
+<http://qudt.org/vocab/unit/SEC> skos:prefLabel "Second" .
+
+<http://qudt.org/vocab/unit/TOE> skos:prefLabel "Ton of Oil Equivalent" .
+
+<http://qudt.org/vocab/unit/TON_LONG> skos:prefLabel "Long Ton" .
+
+<http://qudt.org/vocab/unit/TON_M> skos:prefLabel "Metric Ton" .
+
+<http://qudt.org/vocab/unit/TeraBYTE> skos:prefLabel "TeraByte" .
+
+<http://qudt.org/vocab/unit/UNITLESS> skos:prefLabel "Unitless" .
+
+<http://qudt.org/vocab/unit/WK> skos:prefLabel "Week" .
+
+<http://qudt.org/vocab/unit/YR> skos:prefLabel "Year" .
+
