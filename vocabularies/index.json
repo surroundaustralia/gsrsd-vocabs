@@ -1,3 +1,4 @@
 {
-
+    "alteration-types.ttl": "https://linked.data.gov.au/def/warox-alteration-types",
+    "contacttype.ttl": "http://resource.geosciml.org/classifierscheme/cgi/2016.01/contacttype"
 }
