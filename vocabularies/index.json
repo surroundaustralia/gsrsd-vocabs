@@ -2,5 +2,6 @@
     "alteration-types.ttl": "https://linked.data.gov.au/def/warox-alteration-types",
     "telephone-type.ttl": "https://linked.data.gov.au/def/telephone-type",
     "telephone-type2.ttl": "https://linked.data.gov.au/def/telephone-type",
-    "contacttype.ttl": "http://resource.geosciml.org/classifier/cgi/contacttype"
+    "contacttype.ttl": "http://resource.geosciml.org/classifier/cgi/contacttype",
+    "contacttype2.ttl": "http://resource.geosciml.org/classifierscheme/cgi/2016.01/contacttype"
 }
