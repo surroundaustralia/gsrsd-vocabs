@@ -1,0 +1,23 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://linked.data.gov.au/def/data-access-rights> a skos:ConceptScheme ;
+    skos:definition "<p>Data access rights control how users and systems access a data resource.</p>" ;
+    skos:inScheme <http://linked.data.gov.au/def/data-access-rights/conditional>,
+        <http://linked.data.gov.au/def/data-access-rights/embargoed>,
+        <http://linked.data.gov.au/def/data-access-rights/metadata-only>,
+        <http://linked.data.gov.au/def/data-access-rights/open>,
+        <http://linked.data.gov.au/def/data-access-rights/protected>,
+        <http://linked.data.gov.au/def/data-access-rights/restricted> ;
+    skos:prefLabel "Data Access Rights" .
+
+<http://linked.data.gov.au/def/data-access-rights/conditional> skos:prefLabel "Conditionally protected" .
+
+<http://linked.data.gov.au/def/data-access-rights/embargoed> skos:prefLabel "Embargoed access" .
+
+<http://linked.data.gov.au/def/data-access-rights/metadata-only> skos:prefLabel "Metadata only access" .
+
+<http://linked.data.gov.au/def/data-access-rights/open> skos:prefLabel "Open access" .
+
+<http://linked.data.gov.au/def/data-access-rights/protected> skos:prefLabel "Protected access" .
+
+<http://linked.data.gov.au/def/data-access-rights/restricted> skos:prefLabel "Restricted access" .
